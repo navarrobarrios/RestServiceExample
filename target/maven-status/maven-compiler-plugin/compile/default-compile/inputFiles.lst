@@ -1,0 +1,16 @@
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/controllers/UserController.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/test/TestNormalClass.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/controllers/LoginController.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/services/UserService.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/beans/ErrorCodesAplication.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/interfaces/IUserService.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/test/TestAbstract.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/RestserviceexampleApplication.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/beans/GeneralResponse.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/ErrorUtils.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/beans/User.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/beans/ErrorResponse.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/daos/UserDAO.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/beans/LoginEntity.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/test/TestInterface.java
+/home/anavrrropc/IdeaProjects/RestServiceExample/src/main/java/mx/restserviceexample/restserviceexample/interfaces/IUserDAO.java

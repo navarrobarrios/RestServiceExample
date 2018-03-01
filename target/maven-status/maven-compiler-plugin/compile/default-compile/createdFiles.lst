@@ -1,0 +1,16 @@
+mx/restserviceexample/restserviceexample/controllers/LoginController.class
+mx/restserviceexample/restserviceexample/beans/LoginEntity.class
+mx/restserviceexample/restserviceexample/test/TestInterface.class
+mx/restserviceexample/restserviceexample/services/UserService.class
+mx/restserviceexample/restserviceexample/beans/ErrorResponse.class
+mx/restserviceexample/restserviceexample/test/TestNormalClass.class
+mx/restserviceexample/restserviceexample/interfaces/IUserDAO.class
+mx/restserviceexample/restserviceexample/ErrorUtils.class
+mx/restserviceexample/restserviceexample/test/TestAbstract.class
+mx/restserviceexample/restserviceexample/controllers/UserController.class
+mx/restserviceexample/restserviceexample/interfaces/IUserService.class
+mx/restserviceexample/restserviceexample/beans/ErrorCodesAplication.class
+mx/restserviceexample/restserviceexample/daos/UserDAO.class
+mx/restserviceexample/restserviceexample/beans/User.class
+mx/restserviceexample/restserviceexample/RestserviceexampleApplication.class
+mx/restserviceexample/restserviceexample/beans/GeneralResponse.class

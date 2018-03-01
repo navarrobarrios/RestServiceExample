@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<meta charset="utf-8"/>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="indexstyle.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+<!-- Scprint's-->
+<script type="text/javascript">
+
+   $(document).ready(function(){
+        $(function(){
+          $("#onLoginRequest").click(function(e){
+              var dataSend = "";
+              dataSend = {
+                  "username" : $("#username").val(),
+                  "password" : $("#password").val()
+              };
+                $.ajax({
+                  type: 'GET',
+                  data: dataSend,
+                  datatype: "json",
+                  success: function(data) {
+                      var isSuccess = data["success"];
+                      if(isSuccess){
+                           console.log("Login successFully")
+                      }else{
+                            var result = data["response"];
+                            console.log(result);
+                      }
+                      },
+                  error: function(data){console.log("fail :" + data);},
+                  url: 'http://192.168.9.22:8081/login/requestLogin',
+                  cache:false
+                });
+            });
+        });
+    });
+
+</script>
+    <div class="login">
+    <h1>Login</h1>
+    <div>
+        <input id ="username" type="text" name="u" placeholder="Username" required="required" />
+        <input id="password" type="password" name="p" placeholder="Password" required="required" />
+        <button id="onLoginRequest" class="btn btn-primary btn-block btn-large">Let me in.</button>
+    </div>
+    <br>
+
+</div>
+
+</body>
+</html>
